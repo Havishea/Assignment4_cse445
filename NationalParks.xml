@@ -18,7 +18,7 @@
     </NationalPark>
 
     <!-- Yellowstone National Park -->
-    <NationalPark Rating="none">
+    <NationalPark>
         <Name>Yellowstone National Park</Name>
         <Phone>307-344-7381</Phone>
         <Address NearestAirport="Yellowstone Airport">
@@ -59,7 +59,7 @@
     </NationalPark>
 
     <!-- Gateway Arch National Park -->
-    <NationalPark Rating="none">
+    <NationalPark>
         <Name>Gateway Arch</Name>
         <Phone>314-655-1600</Phone>
         <Address NearestAirport="St. Louis Lambert">
@@ -86,7 +86,7 @@
     </NationalPark>
 
     <!-- Indiana Dunes National Park -->
-    <NationalPark Rating="none">
+    <NationalPark>
         <Name>Indiana Dunes</Name>
         <Phone>219-926-0087</Phone>
         <Phone>219-395-1882</Phone>
@@ -128,7 +128,7 @@
     </NationalPark>
 
     <!-- Wind Cave National Park -->
-    <NationalPark Rating="none">
+    <NationalPark>
         <Name>Wind Cave</Name>
         <Phone>605-745-4600</Phone>
         <Phone>877-444-6777</Phone>

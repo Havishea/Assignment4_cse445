@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Wrong root name error -->
+<NationalPark>
+
+    <!-- Grnad Canyon National Park | missing required attribute-->
+    <NationalPark Rating="4.9">
+        <Name>Grand Canyon</Name>
+        <Phone>928-638-7496</Phone>
+        <Phone>888-297-2757</Phone>
+        <Phone>866-499-2574</Phone>
+
+        <Address>
+            <Number>8</Number>
+            <Street>Grand Canyon Village</Street>
+            <City>Grand Canyon Village</City>
+            <State>AZ</State>
+            <Zip>86023</Zip>
+        </Address>
+    </NationalPark>
+
+    <!-- Yellowstone National Park | missign phone -->
+    <NationalPark Rating="4.5">
+        <Name>Yellowstone National Park</Name>
+        
+        <Address NearestAirport="Yellowstone Airport">
+            <Number>1</Number>
+            <Street>Yellowstone National Park</Street>
+            <City>West Yellowstone</City>
+            <State>MT</State>
+            <Zip>59757</Zip>
+            
+        </Address>
+    </NationalPark>
+
+    <!-- Hot Springs National Park | missing closing Address tag -->
+    <NationalPark Rating="4.6">
+        <Name>Hot Springs </Name>
+        <Phone>501-620-6715</Phone>
+        <Address NearestAirport="Little Rock">
+            <Number>101</Number>
+            <Street>Reserve Street</Street>
+            <City>Hot Springs</City>
+            <State>AR</State>
+            <Zip>71901</Zip>
+        
+    </NationalPark>
+
+    <!-- Congaree National Park | two names -->
+    <NationalPark Rating="4.4">
+        <Name>Congaree</Name>
+        <Name>Bongaree</Name>
+        <Phone>803-776-4396</Phone>
+        <Phone>877-444-6777</Phone>
+        <Address NearestAirport="Columbia">
+            <Number>100</Number>
+            <Street>National Park Rd</Street>
+            <City>Columbia</City>
+            <State>SC</State>
+            <Zip>29201</Zip>
+        </Address>
+    </NationalPark>
+
+    <!-- Gateway Arch National Park -->
+    <NationalPark Rating="4.8">
+        <Name>Gateway Arch</Name>
+        <Phone>314-655-1600</Phone>
+        <Address NearestAirport="St. Louis Lambert">
+            <Number>11</Number>
+            <Street>Gateway Arch National Park</Street>
+            <City>St. Louis</City>
+            <State>MO</State>
+            <Zip>63102</Zip>
+        </Address>
+    </NationalPark>
+
+    <!-- Zion National Park -->
+    <NationalPark Rating="4.7">
+        <Name>Zion</Name>
+        <Phone>435-772-3256</Phone>
+        <Phone>800-639-9839</Phone>
+        <Address NearestAirport="St. George">
+            <Number>1213</Number>
+            <Street>Zion National Park</Street>
+            <City>Springdale</City>
+            <State>UT</State>
+            <Zip>84767</Zip>
+        </Address>
+    </NationalPark>
+
+    <!-- Indiana Dunes National Park -->
+    <NationalPark Rating="4.5">
+        <Name>Indiana Dunes</Name>
+        <Phone>219-926-0087</Phone>
+        <Phone>219-395-1882</Phone>
+        <Address NearestAirport="Chicago O'Hare">
+            <Number>1100</Number>
+            <Street>Westport Rd</Street>
+            <City>Porter</City>
+            <State>IN</State>
+            <Zip>46304</Zip>
+        </Address>
+    </NationalPark>
+
+    <!-- Mammoth Cave National Park -->
+    <NationalPark Rating="4.7">
+        <Name>Mammoth Cave</Name>
+        <Phone>270-758-2180</Phone>
+        <Phone>877-444-6777</Phone>
+        <Address NearestAirport="Nashville">
+            <Number>1</Number>
+            <Street>Mammoth Cave National Park</Street>
+            <City>Mammoth Cave</City>
+            <State>KY</State>
+            <Zip>42259</Zip>
+        </Address>
+    </NationalPark>
+
+    <!-- Biscayne National Park -->
+    <NationalPark Rating="3.8">
+        <Name>Biscayne</Name>
+        <Phone>305-230-7275</Phone>
+        <Phone>800-445-8637</Phone>
+        <Address NearestAirport="Miami">
+            <Number>9700</Number>
+            <Street>SW 32nd St</Street>
+            <City>Homestead</City>
+            <State>FL</State>
+            <Zip>33165</Zip>
+        </Address>
+    </NationalPark>
+
+    <!-- Wind Cave National Park -->
+    <NationalPark Rating="4.7">
+        <Name>Wind Cave</Name>
+        <Phone>605-745-4600</Phone>
+        <Phone>877-444-6777</Phone>
+        <Address NearestAirport="Rapid City">
+            <Number>26611</Number>
+            <Street>Wind Cave National Park</Street>
+            <City>Hot Springs</City>
+            <State>SD</State>
+            <Zip>57747</Zip>
+        </Address>
+    </NationalPark>
+
+    <!-- Guadalupe Mountains National Park -->
+    <NationalPark Rating="4.6">
+        <Name>Guadalupe Mountains</Name>
+        <Phone>915-828-3251</Phone>
+        <Address NearestAirport="El Paso">
+            <Number>1</Number>
+            <Street>Guadalupe Mountains National Park</Street>
+            <City>Salt Flat</City>
+            <State>TX</State>
+            <Zip>79847</Zip>
+        </Address>
+    </NationalPark>
+
+</NationalPark>
